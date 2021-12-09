@@ -1,0 +1,98 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/index.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap);
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/index.scss (1) ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
+.testimonial {
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  padding: 75px 50px;
+  display: flex;
+  justify-content: center;
+}
+.testimonial__img-container {
+  top: 50%;
+  left: -280px;
+  transform: translateY(-50%);
+  position: absolute;
+}
+.testimonial__content {
+  position: relative;
+  box-shadow: 2px 2px 12px 5px rgba(0, 0, 0, 0.2);
+  padding: 50px 50px 50px 75px;
+  width: 75%;
+  max-width: 950px;
+  margin-left: 280px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.testimonial__text {
+  margin-right: 75px;
+  margin-bottom: 2rem;
+}
+.testimonial__name {
+  font-weight: 700;
+  margin-right: 60px;
+}
+.testimonial__quote {
+  height: 50px;
+  width: 50px;
+  background: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+.testimonial__quote svg {
+  height: 25px;
+  width: 25px;
+}
+.testimonial__quote svg path {
+  fill: white;
+}
+
+@media screen and (max-width: 968px) {
+  .testimonial__text {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .testimonial {
+    padding: 75px 0;
+  }
+  .testimonial__img-container {
+    top: -180px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .testimonial__content {
+    max-width: unset;
+    width: 90%;
+    margin-left: 0;
+    margin-top: 180px;
+    padding: 50px 30px 30px 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .testimonial__img-container {
+    top: -130px;
+  }
+  .testimonial__img-container img {
+    width: 250px;
+  }
+  .testimonial__content {
+    margin-top: 130px;
+  }
+  .testimonial__name {
+    margin-right: 80px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map*/
