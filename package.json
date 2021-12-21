@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@wordpress/scripts": "^19.2.2"
+    "@svgr/webpack": "^4.1.0",
+    "@wordpress/scripts": "^3.1.0",
+    "url-loader": "^1.1.2"
   },
   "scripts": {
     "start": "wp-scripts start",

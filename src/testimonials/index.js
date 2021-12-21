@@ -129,16 +129,19 @@ function EditComponent({
             />
           </MediaUploadCheck>
         </div>
-        <p className="testimonial__text">
-          <RichText
-            onChange={testimonalTextHandleChange}
-            placeholder={__(
-              '"This is my great testimonial for Service Express. They are amazing!"',
-              "servex"
-            )}
-            value={testimonialText}
-          />
-        </p>
+
+        <RichText
+          className="testimonial__text"
+          tagName="div"
+          multiline="p"
+          onChange={testimonalTextHandleChange}
+          placeholder={__(
+            '"This is my great testimonial for Service Express. They are amazing!"',
+            "servex"
+          )}
+          value={testimonialText}
+        />
+
         <p className="testimonial__name">
           <RichText
             onChange={testimonalNameHandleChange}
@@ -177,9 +180,14 @@ function SaveComponent({
             style={{ maxWidth: "300px" }}
           />
         </div>
-        <p className="testimonial__text">
-          <RichText.Content value={testimonialText} />
-        </p>
+
+        <RichText.Content
+          className="testimonial__text"
+          tagName="div"
+          multiline="p"
+          value={testimonialText}
+        />
+
         <p className="testimonial__name">
           <RichText.Content value={testimonialName} />
         </p>
