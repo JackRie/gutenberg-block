@@ -9,7 +9,6 @@ import {
 import { Button, PanelBody, PanelRow } from "@wordpress/components";
 import { ChromePicker } from "react-color";
 import defaultImage from "../../images/testimonial-image.jpg";
-import QuoteSvg from "../../images/quote";
 import { ReactComponent as QuoteIcon } from "../../images/quote-right-solid.svg";
 
 registerBlockType("servex/testimonial", {
@@ -151,7 +150,7 @@ function EditComponent({
           className="testimonial__quote"
           style={{ backgroundColor: quoteColor }}
         >
-          {<QuoteSvg />}
+          {<QuoteIcon />}
         </div>
       </div>
     </div>
@@ -188,7 +187,7 @@ function SaveComponent({
           className="testimonial__quote"
           style={{ backgroundColor: quoteColor }}
         >
-          {<QuoteSvg />}
+          {<QuoteIcon />}
         </div>
       </div>
     </div>

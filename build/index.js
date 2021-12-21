@@ -39,36 +39,6 @@ function SvgQuoteRightSolid(props) {
 
 /***/ }),
 
-/***/ "./images/quote.js":
-/*!*************************!*\
-  !*** ./images/quote.js ***!
-  \*************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
-/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
-
-
-const QuoteSvg = () => (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("svg", {
-  "aria-hidden": "true",
-  focusable: "false",
-  "data-prefix": "fas",
-  "data-icon": "quote-right",
-  class: "svg-inline--fa fa-quote-right fa-w-16",
-  role: "img",
-  xmlns: "http://www.w3.org/2000/svg",
-  viewBox: "0 0 512 512"
-}, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("path", {
-  fill: "currentColor",
-  d: "M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"
-}));
-
-/* harmony default export */ __webpack_exports__["default"] = (QuoteSvg);
-
-/***/ }),
-
 /***/ "./src/testimonials/index.js":
 /*!***********************************!*\
   !*** ./src/testimonials/index.js ***!
@@ -89,9 +59,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_wordpress_components__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var react_color__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-color */ "../../../../../../../node_modules/react-color/es/index.js");
 /* harmony import */ var _images_testimonial_image_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../images/testimonial-image.jpg */ "./images/testimonial-image.jpg");
-/* harmony import */ var _images_quote__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../images/quote */ "./images/quote.js");
-/* harmony import */ var _images_quote_right_solid_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../images/quote-right-solid.svg */ "./images/quote-right-solid.svg");
-
+/* harmony import */ var _images_quote_right_solid_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../images/quote-right-solid.svg */ "./images/quote-right-solid.svg");
 
 
 
@@ -103,7 +71,7 @@ __webpack_require__.r(__webpack_exports__);
 (0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_2__.registerBlockType)("servex/testimonial", {
   title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Service Express Testimonial", "servex"),
   icon: {
-    src: _images_quote_right_solid_svg__WEBPACK_IMPORTED_MODULE_8__.ReactComponent
+    src: _images_quote_right_solid_svg__WEBPACK_IMPORTED_MODULE_7__.ReactComponent
   },
   category: "service-express",
   attributes: {
@@ -252,7 +220,7 @@ function EditComponent(_ref) {
     style: {
       backgroundColor: quoteColor
     }
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_images_quote__WEBPACK_IMPORTED_MODULE_7__["default"], null))));
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_images_quote_right_solid_svg__WEBPACK_IMPORTED_MODULE_7__.ReactComponent, null))));
 }
 
 function SaveComponent(_ref3) {
@@ -295,7 +263,7 @@ function SaveComponent(_ref3) {
     style: {
       backgroundColor: quoteColor
     }
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_images_quote__WEBPACK_IMPORTED_MODULE_7__["default"], null))));
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_images_quote_right_solid_svg__WEBPACK_IMPORTED_MODULE_7__.ReactComponent, null))));
 }
 
 /***/ }),
